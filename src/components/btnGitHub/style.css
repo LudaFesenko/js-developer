@@ -1,0 +1,7 @@
+.github-icon {
+  color: dark;
+}
+
+.dark .github-icon {
+  color: white;
+}
