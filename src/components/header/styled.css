@@ -31,7 +31,12 @@
   font-size: 60px;
 }
 .header-tittle em {
-  color: var(--accent);
+  /* color: var(--accent); */
+  background: linear-gradient(to right, #3c1053, var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
   font-style: normal;
 }
 .header-text {
@@ -49,6 +54,18 @@
   display: inline-block;
   padding: 12px 28px;
   background-color: var(--accent);
+
+  background: -webkit-linear-gradient(
+    to top,
+    #3c1053,
+    #ad5389
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #3c1053,
+    #ad5389
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   color: var(--white);
 
   border-radius: 5px;

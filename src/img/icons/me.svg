@@ -4,11 +4,18 @@
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="1210.000000pt" height="1280.000000pt" viewBox="0 0 1210.000000 1280.000000"
  preserveAspectRatio="xMidYMid meet">
+ <defs>
+    <!-- Создаем градиент -->
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3c1053" />
+      <stop offset="100%" style="stop-color:#ad5389" />
+    </linearGradient>
+  </defs>
 <metadata>
 Created by potrace 1.15, written by Peter Selinger 2001-2017
 </metadata>
 <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
-fill="#b69ce2" stroke="none">
+fill="url(#iconGradient)" stroke="none">
 <path d="M3735 12793 c-11 -3 -112 -36 -225 -73 -425 -141 -785 -315 -1145
 -555 -516 -342 -973 -806 -1318 -1337 -536 -823 -866 -1844 -992 -3073 -45
 -444 -67 -1136 -46 -1495 53 -933 253 -1947 536 -2730 345 -950 801 -1668
