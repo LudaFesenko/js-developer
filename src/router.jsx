@@ -19,7 +19,10 @@ const router = createBrowserRouter(
       <Route path="/project/:id" element={<Project />} />
       <Route path="/contacts" element={<Contacts />} />
     </Route>
-  )
+  ),
+  {
+    basename: "/js-developer",
+  }
 );
 
 export default router;
