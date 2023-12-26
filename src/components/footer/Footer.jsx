@@ -26,7 +26,11 @@ function Footer() {
             </li>
 
             <li className="social-item">
-              <a href="#!">
+              <a
+                href="https://www.linkedin.com/in/liudmyla-fesenko-58a579188/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src={linkedIn} alt="linkedIn" className="social-img" />
               </a>
             </li>
