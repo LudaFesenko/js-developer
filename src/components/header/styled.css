@@ -21,17 +21,18 @@
 }
 .header-tittle {
   font-family: "DM Sans", sans-serif;
-  font-size: 40px;
+  /* font-size: 40px; */
+  font-size: clamp(20px, 0.795rem + 2.27vw, 50px);
   font-weight: 700;
   line-height: 1.4;
   margin-bottom: 20px;
 }
 
 .header-tittle strong {
-  font-size: 60px;
+  /* font-size: 60px; */
+  font-size: clamp(30px, 1.193rem + 3.41vw, 60px);
 }
 .header-tittle em {
-  /* color: var(--accent); */
   background: linear-gradient(to right, #3c1053, var(--accent));
   -webkit-background-clip: text;
   background-clip: text;
@@ -58,12 +59,12 @@
   background: -webkit-linear-gradient(
     to top,
     #3c1053,
-    #ad5389
+    var(--accent)
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
     #3c1053,
-    #ad5389
+    var(--accent)
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   color: var(--white);
@@ -86,12 +87,12 @@
   .header {
     min-height: unset;
   }
-  .header-tittle {
+  /* .header-tittle {
     font-size: 30px;
-  }
-  .header-tittle strong {
+  } */
+  /* .header-tittle strong {
     font-size: 40px;
-  }
+  } */
   .header-text {
     margin-bottom: 30px;
   }
@@ -101,12 +102,12 @@
   .header {
     min-height: unset;
   }
-  .header-tittle {
+  /* .header-tittle {
     font-size: 20px;
-  }
-  .header-tittle strong {
+  } */
+  /* .header-tittle strong {
     font-size: 30px;
-  }
+  } */
   .header-text {
     margin-bottom: 20px;
   }
